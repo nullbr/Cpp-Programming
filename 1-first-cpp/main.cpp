@@ -1,7 +1,18 @@
+// Brings in the iostram library
 #include <iostream>
 
-int main(){
-    auto result = (10 <=> 20) > 0;
+/*
+    This is
+    a multiline
+    comment
+*/
 
-    std::cout << result << std::endl;
+// Entrpoint main funcion
+int main(){
+
+    // Loop 10 times to print bruno
+    for (int i = 0; i<10; i++){
+        std::cout << "Bruno" << std::endl;
+    }
+    return 0;
 }
